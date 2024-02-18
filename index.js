@@ -13,7 +13,7 @@ const libraryNav = `<nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <a class="nav-link" onclick="libraryAbout()" style="cursor: pointer;">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="cursor: pointer;">Sign In</a>
+                <a class="nav-link" style="cursor: pointer;" href="https://internationallibrary.online">Sign In</a>
             </li>
               </ul>
               <form class="d-flex" role="search">
