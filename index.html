@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+</head>
+
+<body>
+  <div><h4 style="float: left;">Welcome</h4> <h6 style="float: right;">Logout</h6></div>
+  <br><br>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href=""><div style="background-color: rgb(137, 247, 247); color: aliceblue; border: 1px solid rgb(1, 248, 248); padding: 15px; border-radius: 10px 20px 10px 20px;">I.S.J.L. Library</div></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="libraryAbout()" style="cursor: pointer;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="libraryStudy()" style="cursor: pointer;">Study</a>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <marquee behavior="slide" scrollamount="80" loop="1" direction="down">
+        <div style="background-color: rgb(137, 247, 247); border: 1px solid rgb(1, 248, 248); padding: 15px; border-radius: 30px;">
+        <h3 style="text-align: center;">
+        
+            <a id="option-library" onclick="cultureLibrary()">Culture</a>
+         
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+        
+          <a id="option-library" onclick="economyLibrary()">Economy</a>
+        
+         </h3>
+        <h3 id="option-library" style="text-align: center;">
+       
+          <a id="option-library" onclick="geographyLibrary()">Geography</a>
+        
+        </h3>
+        <h3 id="option-library" style="text-align: center;">
+        
+          <a id="option-library" onclick="healthLibrary()">Health</a>
+        
+        </h3>
+        <h3 id="option-library" style="text-align: center;">
+        
+            <a id="option-library" onclick="historyLibrary()">History</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+         
+            <a id="option-library" onclick="lawLibrary()">Law</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+         
+            <a id="option-library" onclick="literatureLibrary()">Literature</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+          
+            <a id="option-library" onclick="politicLibrary()">Politic</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+          
+            <a id="option-library" onclick="religionLibrary()">Religion</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+          
+            <a id="option-library" onclick="scienceLibrary()">Science</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+         
+            <a id="option-library" onclick="societyLibrary()">Society</a>
+          
+        </h3>
+          <h3 id="option-library" style="text-align: center;">
+          
+            <a id="option-library" onclick="technologyLibrary()">Technology</a>
+          
+    </h3>
+     </div>
+    </marquee>
+    </div>
+      <script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
